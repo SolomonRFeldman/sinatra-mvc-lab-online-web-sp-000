@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+require 'pry'
+>>>>>>> e3b2c34e5ab4b9426855407d413e0227829bb99e
 class PigLatinizer
   
   def pig_latinized_word(word)
@@ -15,7 +19,11 @@ class PigLatinizer
         word[0] = ''
       end
     end
+<<<<<<< HEAD
     word << word_consonants
+=======
+    word << word_consonants.downcase
+>>>>>>> e3b2c34e5ab4b9426855407d413e0227829bb99e
     word << "ay"
   end
   
